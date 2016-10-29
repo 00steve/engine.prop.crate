@@ -6,6 +6,9 @@
 
 class Crate : public PhysicalSingleBody {
 
+protected:
+
+    virtual void OnSetSettings();
 
 public:
 

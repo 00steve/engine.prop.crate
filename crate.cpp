@@ -2,7 +2,7 @@
 
 
 Crate::Crate(){
-    PhysicsWorld::NewBox(body,geom,double3(1,1,1),1,this);
+
 }
 
 Crate::~Crate()
@@ -10,6 +10,10 @@ Crate::~Crate()
     //dtor
 }
 
+
+void Crate::OnSetSettings(){
+    PhysicsWorld::NewBox(body,geom,double3(1,1,1),1,(void*)this);
+}
 
 void Crate::Draw(){
     glColor3f(1,1,0);

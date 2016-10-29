@@ -43,6 +43,7 @@
 			</Target>
 		</Build>
 		<Linker>
+			<Add library="opengl32" />
 			<Add library="ode" />
 		</Linker>
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/assetlibrary/assetlibrary.cpp" />
@@ -68,10 +69,10 @@
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physical_single_body.h" />
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physics_world.cpp" />
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physics_world.h" />
-		<Unit filename="include/Crate.h" />
+		<Unit filename="crate.cpp" />
+		<Unit filename="crate.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
-		<Unit filename="src/Crate.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
