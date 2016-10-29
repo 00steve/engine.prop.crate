@@ -1,9 +1,6 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-#include <windows.h>
-#include <engine/core/enginecontrol.h>
-#include <engine/core/varmap.h>
 #include "crate.h"
 
 /*  To use this exported function of dll, include this header
