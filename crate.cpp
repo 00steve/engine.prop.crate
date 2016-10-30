@@ -10,12 +10,9 @@ double Crate::density = 1;
 
 
 Crate::Crate(){
-    //PhysicsWorld::NewBox(body,geom,double3(1,1,1),1,this);
-
 }
 
 Crate::~Crate(){
-
 }
 
 bool Crate::HandleMessage(NodeMessage message){
