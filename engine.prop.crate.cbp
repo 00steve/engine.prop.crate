@@ -42,6 +42,9 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+		</Compiler>
 		<Linker>
 			<Add library="opengl32" />
 			<Add library="ode" />
@@ -69,6 +72,7 @@
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physical_single_body.h" />
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physics_world.cpp" />
 		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physics_world.h" />
+		<Unit filename="C:/Program Files (x86)/CodeBlocks/MinGW/include/engine/physics/physicsgroup.h" />
 		<Unit filename="crate.cpp" />
 		<Unit filename="crate.h" />
 		<Unit filename="main.cpp" />
